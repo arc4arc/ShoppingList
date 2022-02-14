@@ -5,7 +5,7 @@ import ru.rucobe.shoppinglist.domain.ShopListRepository
 import java.lang.RuntimeException
 
 object ShopListRepositoryImpl: ShopListRepository{
-    //установили переменную, храним в переменной для данного примера
+    //установили переменную, храним в переменной для данного примера 0
     private val shopList = mutableListOf<ShopItem>()
 
     private var autoIncrementId = 0
