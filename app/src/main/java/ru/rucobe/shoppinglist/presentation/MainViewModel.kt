@@ -29,7 +29,7 @@ class MainViewModel: ViewModel(){ //для передачи контекста �
     //    return getShopListUseCase.getShopList()
     //}
 
-    fun delateShopItem(shopItem: ShopItem){
+    fun deleteShopItem(shopItem: ShopItem){
         deleteShopItemUseCase.deleteShopItem(shopItem)
 
     }
